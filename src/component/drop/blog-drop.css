@@ -1,0 +1,23 @@
+.blogDrop {
+  display: grid;
+  padding: 20px;
+  grid-template-columns: repeat(1, 150px);
+  grid-gap: 10px;
+  place-content: center;
+  background-color: #fff;
+  box-shadow: 0px 4px 6px -4px #000;
+  border-radius: 0px 0px 10px 10px;
+}
+.blogDrop h3 {
+  color: #242424;
+}
+.blogDrop a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: gray;
+}
+.blogDrop a .MuiSvgIcon-root {
+  font-size: 1em;
+  margin-right: 5px;
+}

@@ -1,0 +1,11 @@
+export {default as Header} from "./hedaer/Header";
+export {default as HeaderTop} from "./header-top/HedaerTop";
+export {default as HeaderBottom} from "./header-bottom/HeaderBottom";
+export {default as  Banner} from "./banner/Banner";
+export {default as Features} from "./features/Features";
+export {default as Table} from "./table/Table";
+export {default as TableBody} from "./table-body/TableBody";
+export {default as SaleBanner} from "./sale-banner/SaleBanner";
+export {default as News} from "./news/News";
+export {default as Subscribe} from "./subscribe/Subscribed";
+export {default as Footer} from "./footer/Footer";

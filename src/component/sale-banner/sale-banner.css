@@ -1,0 +1,24 @@
+.saleBanner {
+  display: flex;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.saleBanner__holder img {
+  height: 150px;
+  box-shadow: 0px 4px 18px -4px #000;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.saleBanner__holder:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .saleBanner__holder {
+    margin: 10px;
+  }
+}

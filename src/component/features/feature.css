@@ -1,0 +1,32 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  margin: 40px 0px;
+  justify-content: space-evenly;
+}
+.features__points {
+  display: flex;
+
+  width: 200px;
+
+  align-items: center;
+}
+.features__points .features__pointContent h2 {
+  font-weight: normal;
+  color: #343e47;
+}
+.features__point .features__pointContent p {
+  color: lightgray;
+}
+.features__points .MuiSvgIcon-root {
+  margin-right: 10px;
+  color: #392061;
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .features__points {
+    margin: 10px 0px;
+  }
+}

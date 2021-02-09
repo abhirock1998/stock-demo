@@ -1,0 +1,36 @@
+.subscribe {
+  background-color: #392061;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.subscribe .subscribe__title {
+  color: #fff;
+  font-size: 20px;
+}
+.subscribe .subscribe__form {
+  align-items: center;
+  display: flex;
+  flex: 0.4;
+  border-radius: 20px;
+  background-color: #fff;
+}
+.subscribe .subscribe__form input {
+  width: 100%;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 20px 0px 0px 20px;
+  outline: none;
+}
+.subscribe .subscribe__form .MuiSvgIcon-root {
+  background-color: #484848;
+  padding: 5px 10px;
+  border-radius: 999px;
+}
+
+@media screen and (max-width: 768px) {
+  .subscribe .subscribe__form {
+    flex: 0.9;
+  }
+}

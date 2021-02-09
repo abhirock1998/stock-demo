@@ -1,0 +1,66 @@
+.footer__options {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.footer__options .footer__first img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.footer__options .footer__first p {
+  color: gray;
+  margin-top: 5px;
+}
+.footer__options .footer__first .footer__firstSocial {
+  color: #392061;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__options .footer__first .footer__firstSocial .MuiSvgIcon-root {
+  font-size: 1.5em;
+}
+.footer__options .footer__second {
+  display: flex;
+  flex-direction: column;
+}
+.footer__options .footer__second h5 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #343e47;
+}
+.footer__options .footer__second a {
+  text-decoration: none;
+  margin-top: 5px;
+  color: gray;
+  align-items: center;
+  display: flex;
+}
+.footer__options .footer__second .footer__search {
+  display: flex;
+
+  box-shadow: 0px 4px 10px -1px #000;
+  border-radius: 20px;
+}
+.footer__options .footer__second .footer__search input {
+  border: none;
+  outline: none;
+  border-radius: 20px 0px 0px 20px;
+  padding: 0px 10px;
+}
+.footer__options .footer__second .footer__search button {
+  border-radius: 20px;
+  background-color: #484848;
+}
+
+@media screen and (max-width: 768px) {
+  .footer__options {
+    flex-wrap: wrap;
+  }
+  .footer__options .footer__second {
+    height: 190px;
+  }
+}

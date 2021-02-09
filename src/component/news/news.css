@@ -1,0 +1,65 @@
+.news {
+  padding: 0px 20px;
+}
+.news__title {
+  display: flex;
+
+  color: #392061;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+.news__title h3 {
+  margin-bottom: 10px;
+  color: #242424;
+  font-size: 35px;
+}
+.news__title div .MuiSvgIcon-root {
+  margin: 0px 15px;
+}
+.news__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0px;
+  justify-content: space-evenly;
+}
+.news__box {
+  display: flex;
+  flex: 0.3;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 4px 2px -4px #000;
+}
+.news__box img {
+  height: 90px;
+  object-fit: fill;
+  width: 90px;
+  margin-right: 20px;
+}
+.news__content {
+  padding: 0px 10px;
+}
+.news__content h4 {
+  font-size: 20px;
+}
+.news__content p {
+  color: gray;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .news__box {
+    flex-direction: column;
+  }
+  .news__box img {
+    object-fit: fill;
+    width: 100%;
+  }
+  .news__content {
+    margin-top: 5px;
+  }
+  .news__content h4 {
+    font-size: 18px;
+  }
+}
