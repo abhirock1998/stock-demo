@@ -4,7 +4,7 @@ import Axios from "axios";
 const ApiBaseURL = Axios.create({
   baseURL: "https://apidojo-yahoo-finance-v1.p.rapidapi.com/",
   headers: {
-    "x-rapidapi-key": "83780f0127msha884f41597b695dp11dfecjsn8c433b07df17",
+    "x-rapidapi-key": process.env.REACT_APP_APIKEY,
     "x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com",
     useQueryString: true,
   },
